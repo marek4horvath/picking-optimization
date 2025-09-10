@@ -8,10 +8,6 @@ import { optimizedPicking } from './algoritmus/optimizedPicking';
 const app = express();
 app.use(bodyParser.json());
 
-// app.get('/', (req, res) => {
-//   res.send('Server beží! Použi POST na /optimize-picking');
-// });
-
 app.post('/optimize-picking', async (req, res) => {
   try {
     const payload = req.body as OptimizeRequest;
