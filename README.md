@@ -32,18 +32,18 @@ Server runs on port: 3000
     * x: X coordinate in warehouse
     * y: Y coordinate in warehouse
     * z: floor level
+##
 
-```json
-Response body:
-{
-    "distance": 97,
-    "pickingOrder": [
-        { "productId": "product-1", "positionId": "position-31"},
-        { "productId": "product-3", "positionId": "position-120" },
-        { "productId": "product-2", "positionId": "position-241" }
-    ]
-}
-```
+    Response body:
+    {
+        "distance": 97,
+        "pickingOrder": [
+            { "productId": "product-1", "positionId": "position-31"},
+            { "productId": "product-3", "positionId": "position-120" },
+            { "productId": "product-2", "positionId": "position-241" }
+        ]
+    }
+
 - distance – total walking distance of the worker (rounded)
 - pickingOrder – array of products with specific positions and coordinates
 
@@ -85,12 +85,12 @@ Response body:
 
 OptimizeResponse
 
-```json
-{
-    distance: number,
-    pickingOrder: PickingItem[]
-}
-```
+
+    {
+        distance: number,
+        pickingOrder: PickingItem[]
+    }
+
 
 - distance – distance after optimization
 - pickingOrder – array of PickingItem objects with productId and positionId
@@ -135,18 +135,16 @@ Server beží na porte: 3000
   * z: poschodie
 ######
 
-    
-```json
-Response body:
-{
-    "distance": 97,
-    "pickingOrder": [
-        { "productId": "product-1", "positionId": "position-31"},
-        { "productId": "product-3", "positionId": "position-120" },
-        { "productId": "product-2", "positionId": "position-241" }
-    ]
-}
-```
+    Response body:
+    {
+        "distance": 97,
+        "pickingOrder": [
+            { "productId": "product-1", "positionId": "position-31"},
+            { "productId": "product-3", "positionId": "position-120" },
+            { "productId": "product-2", "positionId": "position-241" }
+        ]
+    }
+
 - distance – celková vzdialenosť chôdze pracovníka (zaokrúhlená).
 - pickingOrder – pole produktov s konkrétnymi pozíciami a súradnicami.
 
@@ -186,12 +184,12 @@ Response body:
  ### Výstupy:
  OptimizeResponse
 
-```json
-{
-    distance: number,
-    pickingOrder: PickingItem[]
-}
-```
+
+    {
+        distance: number,
+        pickingOrder: PickingItem[]
+    }
+
 - distance – vzdialenosť po optimalizácii
 - pickingOrder – pole objektov PickingItem s productId a positionId
 
