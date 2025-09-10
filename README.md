@@ -27,6 +27,7 @@ Fill in your own values:
 
     GYMBEAM_API_KEY=your_api_key_here
     GYMBEAM_API_URL=https://api.gymbeam.io/case-study-picking-optimization
+    PORT=3000
 
 
 ## API Endpoints
@@ -139,6 +140,7 @@ Doplnte vlastné hodnoty:
 
     GYMBEAM_API_KEY=your_api_key_here
     GYMBEAM_API_URL=https://api.gymbeam.io/case-study-picking-optimization
+    PORT=3000
 
 ## API Endpoints
     URL: http://localhost:3000/optimize-picking
