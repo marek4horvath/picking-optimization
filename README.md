@@ -18,6 +18,17 @@ The algorithm combines:
     npm run dev
 Server runs on port: 3000
 
+### Environment Setup
+Copy the .env.example file to .env:
+
+    cp .env.example .env
+
+Fill in your own values:
+
+    GYMBEAM_API_KEY=your_api_key_here
+    GYMBEAM_API_URL=https://api.gymbeam.io/case-study-picking-optimization
+
+
 ## API Endpoints
     URL: http://localhost:3000/optimize-picking
     Metóda: POST
@@ -118,6 +129,16 @@ Algoritmus kombinuje:
 ##### Spustenie servera
     npm run dev
 Server beží na porte: 3000
+
+### Nastavenie prostredia
+Skopírujte súbor .env.example do .env:
+    
+    cp .env.example .env
+
+Doplnte vlastné hodnoty:
+
+    GYMBEAM_API_KEY=your_api_key_here
+    GYMBEAM_API_URL=https://api.gymbeam.io/case-study-picking-optimization
 
 ## API Endpoints
     URL: http://localhost:3000/optimize-picking
